@@ -9,6 +9,24 @@ body{
     width: auto;
     position: relative;
 }
+#recent-header{
+    height: 300px;
+    background-color: darkkhaki;
+    width: auto;
+    position: relative;
+}
+#cert-header{
+    height: 300px;
+    background-color: darkkhaki;
+    width: auto;
+    position: relative;
+}
+#archive-header{
+    height: 300px;
+    background-color: darkkhaki;
+    width: auto;
+    position: relative;
+}
 /* #endregion */
 /* #region topnav styling */
 .topnav {
