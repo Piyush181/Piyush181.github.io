@@ -12,10 +12,24 @@ header{
     background-color: darkkhaki;
 }
 p{
+    text-align: center;
+    font-size: 2vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
+    text-align: center;
+    font-size: 4vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.img{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+hr{
+    border: black 10px solid;
 }
 /* #endregion */
 /* #region topnav styling */
@@ -72,48 +86,5 @@ h1{
     header{
         height: 200px;
     }
-    .image-left{
-        height: 600px;
-    }
-    .image-left img{
-        float: none;
-    }
-    .text-right{
-        float: none;
-        width: 100%;
-    }
-    .text-right h1{
-        font-size: 60px;
-        text-align: center;
-    }
-    .text-right p{
-        font-size: 40px;
-        text-align: center;
-    }
-}
-/* #endregion */
-/* #region all-pages styling */
-.image-left{
-    height: 400px;
-    width: 99%;
-    background-color: darkgrey;
-    margin-left: auto;
-    margin-right: auto;
-    border: double darkslategray;
-}
-.image-left img{
-    float: left;
-}
-.text-right{
-    float: right;
-    text-align: right;
-    width: 70%;
-}
-.text-right h1{
-    font-size: 50px;
-    text-align: center;
-}
-.text-right p{
-    font-size: 30px;
 }
 /* #endregion */
