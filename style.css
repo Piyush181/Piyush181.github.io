@@ -5,7 +5,17 @@ body{
     margin-top: 0px;
 }
 main{
-    margin-top: 60px;
+    margin-top: 52px;
+}
+header{
+    height: 300px;
+    background-color: darkkhaki;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* #endregion */
 /* #region topnav styling */
@@ -36,6 +46,8 @@ main{
 .topnav .icon {
     display: none;
 }
+/* #endregion */
+/* #region responsive styling */
 @media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -55,5 +67,53 @@ main{
       display: block;
       text-align: left;
     }
+}
+@media screen and (max-width: 800px) {
+    header{
+        height: 200px;
+    }
+    .image-left{
+        height: 600px;
+    }
+    .image-left img{
+        float: none;
+    }
+    .text-right{
+        float: none;
+        width: 100%;
+    }
+    .text-right h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .text-right p{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+/* #endregion */
+/* #region all-pages styling */
+.image-left{
+    height: 400px;
+    width: 99%;
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+    border: double darkslategray;
+}
+.image-left img{
+    float: left;
+}
+.text-right{
+    float: right;
+    text-align: right;
+    width: 70%;
+}
+.text-right h1{
+    font-size: 50px;
+    text-align: center;
+}
+.text-right p{
+    font-size: 30px;
 }
 /* #endregion */
