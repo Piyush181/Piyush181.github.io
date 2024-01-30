@@ -103,21 +103,21 @@ a:hover:after{
 @media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-      float: right;
-      display: block;
+    float: right;
+    display: block;
     }
 }
 @media screen and (max-width: 700px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
     }
     .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+    float: none;
+    display: block;
+    text-align: left;
     }
 }
 @media screen and (max-width: 800px) {
